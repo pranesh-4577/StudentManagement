@@ -16,7 +16,7 @@ class Student {
     }
 
     void calculateResults() {
-        total = mark1 + mark2 + mark3;
+        total = mark1 + mark2 + mark3; 
         average = total / 3.0;
 
         if (average >= 90) grade = 'A';
