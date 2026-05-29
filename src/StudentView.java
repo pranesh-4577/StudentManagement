@@ -35,4 +35,3 @@ class StudentView {
         System.out.println(msg);
     }
 }
-

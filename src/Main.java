@@ -3,10 +3,7 @@ public class Main {
         StudentController controller = new StudentController(10);
         StudentView view = new StudentView();
 
-        // Sample Students
-        controller.addStudent(1, "Arun", 85, 90, 80);
-        controller.addStudent(2, "Bala", 70, 65, 60);
-        controller.addStudent(3, "Chitra", 95, 92, 88);
+        
 
         while (true) {
             view.showMenu();
@@ -36,4 +33,3 @@ public class Main {
         }
     }
 }
-
